@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    
+
+    font-family: 'Libre Baskerville';
+    
+    /* font-family: 'Playfair Display', cursive; */
+    
+    
+
+    
+    background-color: #fbeec1;
+}
+
+.main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.main-menu li:last-child {
+    margin-right: 0;
+}
+
+.header {
+    background-color: #8e8741;
+    color: #fbeec1;
+    padding: 20px 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #fbeec1;
+}
+
+main p {
+    text-align: justify;
+}
+
+p {
+    text-align: left;
+}
+
+.footer {
+    background-color: #8e8741;
+    color: #fbeec1;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+
+/* Оставить */
+.btn {
+    border: 2px solid #bd986b;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: #bd986b;
+    font-size: 1.25 rem;
+    display: inline-block;
+    transition: color 0.5s, border-color 0.5s;
+}
+
+/* Оставить */
+.btn:hover {
+    color: #4887b0;
+    border-color: #4887b0;
+}
+
+/* оставить */
+.text-right {
+    text-align: right;
+}
+
+/* оставить */
+table {
+    border-collapse: collapse;
+}
+
+/* оставить */
+table,
+th,
+td {
+    border: 1px solid #0b0c10;
+}
+
+/* оставить */
+th,
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #bd986b;
+}
+
+.phone a {
+    color: #fbeec1;
+    text-decoration: none;
+
+}
+
+.phone a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.email a {
+    color: #fbeec1;
+    text-decoration: none;
+}
+
+.email a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.gift-wrapping {
+    height: 300px;
+    text-align: center;
+}
+
+.gift-wrapping img {
+    height: 100%;
+}
+
+b {
+    color: #bd986b;
+    text-transform: uppercase;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-image {
+    max-width: 250px;
+    margin: 10px;
+}
