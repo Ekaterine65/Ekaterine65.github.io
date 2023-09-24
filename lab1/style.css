@@ -52,8 +52,6 @@ p {
     margin-top: 20px;
 }
 
-
-/* Оставить */
 .btn {
     border: 2px solid #bd986b;
     border-radius: 5px;
@@ -65,30 +63,25 @@ p {
     transition: color 0.5s, border-color 0.5s;
 }
 
-/* Оставить */
 .btn:hover {
     color: #4887b0;
     border-color: #4887b0;
 }
 
-/* оставить */
 .text-right {
     text-align: right;
 }
 
-/* оставить */
 table {
     border-collapse: collapse;
 }
 
-/* оставить */
 table,
 th,
 td {
     border: 1px solid #0b0c10;
 }
 
-/* оставить */
 th,
 td {
     text-align: center;
