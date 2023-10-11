@@ -15,10 +15,6 @@ body {
     margin-right: 10px;
 }
 
-.main-menu li:last-child {
-    margin-right: 0;
-}
-
 .header {
     background-color: #8e8741;
     color: #fbeec1;
